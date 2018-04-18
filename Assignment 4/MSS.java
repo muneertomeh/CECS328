@@ -30,7 +30,7 @@ public class MSS {
 			if(auxiliary<0){
 				auxiliary=0;
 			}
-			//determine whether the auxiliary value is greater than the concurrent MSS,
+			//determine whether the auxiliary value is greater than the current MSS,
 			//if yes, then make the axuiliary value the new concurrent MSS
 			if(auxiliary>MSS) {
 				MSS = auxiliary;
